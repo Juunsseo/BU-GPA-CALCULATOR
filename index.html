@@ -1,0 +1,70 @@
+    <!DOCTYPE html>
+
+    
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GPA Calculator</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>GPA Calculator</h1>
+
+            <form id="gpaForm">
+              <div class="input-group">
+                <label for="courseN">Course Name:</label>
+                <input type="text" id="courseN" required>
+
+              </div>
+
+              
+                <div class="input-group">
+                  <label for="grade">Letter Grade:</label>
+                  <select id="grade" required>
+                    <option value="">Select Grade</option>
+                    <option value="4.0">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3.0">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2.0">C</option>
+                    <option value="1.7">C-</option>
+                    <option value="1.0">D</option>
+                    <option value="0.0">F</option>
+                  </select>
+                </div>
+  
+                  <div class="input-group">
+                      <label for="credit">Credit:</label>
+                      <select id="credit" required>
+                        <option value="">Select Credit</option>
+                        <option value="4.0">4</option>
+                        <option value="3.0">3</option>
+                        <option value="2.0">2</option>
+                        <option value="1.0">1</option>
+                      </select>
+                  </div>
+
+                <button type="button" onclick="addCourse()">Add Course</button>
+                <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+                <button type="button" onclick="resetGPA()">Reset GPA</button>
+
+
+            </form>
+
+            <div id="courses" class="courses-section"></div>
+
+            <h2 id="result"></h2>
+            <div id="academicAlert" class="alert hidden"></div> <!-- New alert div -->
+
+        </div>
+        <div id="fireworks" class="fireworks"></div>
+
+        <script src="script.js"></script> <!-- Include the script.js file for client-side functionality -->
+    </body>
+    </html>
