@@ -1,5 +1,9 @@
 # BU-GPA-CALCULATOR
 ---
+![개발자 소개](https://github.com/Juunsseo/BU-GPA-CALCULATOR/blob/main/GPA_Calculator_Screenshot.png?raw=true)
+
+
+---
 The GPA Calculator’s user interface is designed to be intuitive and user-friendly, requiring no prior instruction for use.
 
 
