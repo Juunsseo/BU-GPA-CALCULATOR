@@ -11,10 +11,16 @@ The feedback is immediate and understandable; for instance, once a course is add
 
 ---
 Developrs:
+
 Haeun Oh (haeunoh)
+
 Kyuna Park (kyuna921)
+
 Juhan Lee (lee03)
+
 Yena Yu (yenayu)
+
 Junseo Lee (jslee011)
+
 Tyren Ignacio (tyrenjmi)
 
